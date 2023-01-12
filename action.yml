@@ -3,5 +3,5 @@ description: 'Greet someone'
 runs:
   using: "composite"
   steps:
-    - run: echo ${{ vars.foo }}
+    - run: echo ${{ github.action_path }}
       shell: bash
